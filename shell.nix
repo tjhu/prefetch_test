@@ -11,6 +11,8 @@ in pkgs.mkShell {
   buildInputs = with pkgs; [
     ninja
     meson
+
+    gdb
   ];
   nativeBuildInputs = with pkgs; [
     gcc11
